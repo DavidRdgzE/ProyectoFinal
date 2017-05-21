@@ -23,6 +23,6 @@ RecipeSchema = new SimpleSchema({
 			return new Date()
 		}
 	}
+});
 
-
-Recipes.attachSchema( RecipeSchema );
+Recipes.attachSchema(RecipeSchema);
