@@ -1,12 +1,12 @@
 <template name="Recipes">
 	{{> NewRecipe}}
 	<section class="recipes">
-		{{# if Template.subscriptionsReady}}
+		{{#if Template.subscriptionsReady}}
 			{{#each recipes}}
 				{{> Recipe}}
 			{{/each}}
-			{{else}}
+		{{else}}
 			<p>Loading</p>
-			{{/if}}
+		{{/if}}
 	</section>
 </template>
