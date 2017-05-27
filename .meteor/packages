@@ -11,6 +11,7 @@ blaze-html-templates
 session
 jquery
 tracker
+reactive-bar
 
 standard-minifiers
 es5-shim
