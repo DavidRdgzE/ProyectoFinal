@@ -1,7 +1,10 @@
 {
-	"public": {
-		"ga": {
-			"account": "UA-XXXXXXXX-X"
-		}
-	}
+  "public": {
+    "ga": {
+      "account": "UA-XXXXXXX-X"
+    }
+  },
+  "private":{
+
+  }
 }

@@ -1,3 +1,5 @@
-Meteor.startup(function(){
-	console.log(Meteor.settings.hello);
+import { Meteor } from 'meteor/meteor';
+
+Meteor.startup(() => {
+
 });
